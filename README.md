@@ -22,3 +22,8 @@ npm run serve
 
 展示所有的，就是引入展示一个的component。父结点用provide，它用inject获得所有card的信息，然后v-for展示就行。
 
+添加card，就是写一个form，input里都用ref。然后inject进一个添加元素的函数。然后设计到判定输入无效时，我看的课程讲的办法是用一个isInvalidInput记录。
+如果输入不符合规范，就v-if展示出一个dialog（用ui重写过），然后里面有几个不同的slot，展示不同的信息，还有一个按钮，可以emit信息到父结点。说实话style以后的dialog还挺好看的。但我觉得没必要这么麻烦，直接用bootstrap，给input加上form-contorl类，再加一个required就可以了。不过当规范更加复杂时，或许用dialog要更好一些。
+
+
+
