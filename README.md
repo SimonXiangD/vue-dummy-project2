@@ -2,7 +2,10 @@
 类似之前写的mysteryLand，就是很基础的资料管理，可以展示创建删除。但是没有数据库，网页刷新就没了。
 
 使用方法：
+
 npm i 
+
+
 npm run serve
 然后打开localhost 8081端口
 
