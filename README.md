@@ -7,6 +7,7 @@ npm i
 
 
 npm run serve
+
 然后打开localhost 8081端口
 
 感觉用vue写确实方便很多，思路大概为：
